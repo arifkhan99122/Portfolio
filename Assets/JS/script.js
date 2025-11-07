@@ -57,46 +57,46 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor =>{
 
 //Animation
 
-function initLottieAnimation() {
-    // Method 1: Using Lottie CDN (add this to your <head>)
-    // <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+// function initLottieAnimation() {
+//     // Method 1: Using Lottie CDN (add this to your <head>)
+//     // <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
     
-    // Check if Lottie is loaded
-    if (typeof lottie !== 'undefined') {
-        // Option A: Developer/Code Animation
-        const animation1 = lottie.loadAnimation({
-            container: document.getElementById('lottie-animation'), // or 'lottie-bg'
-            renderer: 'svg',
-            loop: true,
-            autoplay: true,
-            path: 'https://assets1.lottiefiles.com/packages/lf20_ukpanbuq.json' // Developer animation
-        });
+//     // Check if Lottie is loaded
+//     if (typeof lottie !== 'undefined') {
+//         // Option A: Developer/Code Animation
+//         const animation1 = lottie.loadAnimation({
+//             container: document.getElementById('lottie-animation'), // or 'lottie-bg'
+//             renderer: 'svg',
+//             loop: true,
+//             autoplay: true,
+//             path: 'https://assets1.lottiefiles.com/packages/lf20_ukpanbuq.json' // Developer animation
+//         });
         
-        // Option B: Abstract Shapes Animation
-        const animation2 = lottie.loadAnimation({
-            container: document.getElementById('lottie-animation'),
-            renderer: 'svg',
-            loop: true,
-            autoplay: true,
-            path: 'https://assets1.lottiefiles.com/packages/lf20_5ttmI2.json' // Abstract shapes
-        });
+//         // Option B: Abstract Shapes Animation
+//         const animation2 = lottie.loadAnimation({
+//             container: document.getElementById('lottie-animation'),
+//             renderer: 'svg',
+//             loop: true,
+//             autoplay: true,
+//             path: 'https://assets1.lottiefiles.com/packages/lf20_5ttmI2.json' // Abstract shapes
+//         });
         
-        // Option C: Technology Animation
-        const animation3 = lottie.loadAnimation({
-            container: document.getElementById('lottie-animation'),
-            renderer: 'svg',
-            loop: true,
-            autoplay: true,
-            path: 'https://assets1.lottiefiles.com/packages/lf20_gn0tojcq.json' // Tech animation
-        });
+//         // Option C: Technology Animation
+//         const animation3 = lottie.loadAnimation({
+//             container: document.getElementById('lottie-animation'),
+//             renderer: 'svg',
+//             loop: true,
+//             autoplay: true,
+//             path: 'https://assets1.lottiefiles.com/packages/lf20_gn0tojcq.json' // Tech animation
+//         });
         
-    } else {
-        console.warn('Lottie library not loaded. Please include Lottie CDN.');
-    }
-}
+//     } else {
+//         console.warn('Lottie library not loaded. Please include Lottie CDN.');
+//     }
+// }
 
-// Initialize when DOM is loaded
-document.addEventListener('DOMContentLoaded', function() {
-    initLottieAnimation();
-});
+// // Initialize when DOM is loaded
+// document.addEventListener('DOMContentLoaded', function() {
+//     initLottieAnimation();
+// });
 
